@@ -29,12 +29,11 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header text-justify">
               <span className="text-gray-400 ">
-                Hello! My name is Abdellatif, and I&apos;m a passionate{" "}
+                Hello! My name is Akshita, and I&apos;m a passionate{" "}
                 <span className="text-AAsecondary">Full Stack Software Engineer</span> with strong problem-solving skills. My
-                journey in computer science started at 11 years old when I explored Ethical Hacking using BackTrack OS,
+                journey in Electronics and communication engineering started at 7 years old,
                 which started my interest in programming. Over the years, I continued to teach myself coding, which led
-                me to pursue an <span className="text-AAsecondary">engineering degree</span> and afterward a second
-                degree in <span className="text-AAsecondary">Master of Computer Science</span>, making me a professional
+                me to pursue an <span className="text-AAsecondary">engineering degree</span> making me a professional
                 in this field.
               </span>
             </div>
