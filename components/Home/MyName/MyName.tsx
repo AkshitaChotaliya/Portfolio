@@ -77,9 +77,9 @@ export default function MyName(props: { finishedLoading: boolean }) {
         <span className="text-AAsecondary"> web3</span>
         <br className="3xl:block hidden" /> and traditional web applications. I enjoy solving challenging projects that
         drive <span className="text-AAsecondary"> innovation</span> and deliver high-quality results.
-        <br className="3xl:block hidden" /> My experience in{" "}
+        {/* <br className="3xl:block hidden" /> My experience in{" "}
         <span className="text-AAsecondary">leading development teams</span> has honed my ability to collaborate
-        effectively and translate ideas into functional solutions.
+        effectively and translate ideas into functional solutions. */}
         <br className="3xl:block hidden" /> I am excited to contribute to dynamic projects that push the boundaries of
         technology.
       </motion.h3>

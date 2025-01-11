@@ -3,8 +3,8 @@ import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 export default function AboutMe(props) {
   const technologies = [
-    ["Nextjs/React", "TypeScript/JavaScript", "Tailwind CSS", "Ether.js/web3.js", "AWS/Google Cloud"],
-    ["Node.js", "Java", "Solidity", "Mongodb", "GraphQL/RESTful APIs"],
+    ["Vuejs", "TypeScript/JavaScript", "PHP" ,"Laravel","Nuxtjs","Google Cloud"],
+    ["python","Node.js" ,"postgres", "MySql", "Mongodb", "GraphQL/RESTful APIs"],
   ];
   return (
     <div id="aboutSection" data-aos="fade-up" className="snap-start flex flex-col  items-center py-20 bg-AAprimary">
@@ -36,17 +36,19 @@ export default function AboutMe(props) {
                 me to pursue an <span className="text-AAsecondary">engineering degree</span> making me a professional
                 in this field.
               </span>
+              <br/><br/>
+              <span className="text-gray-400 ">Dedicated and efficient full-stack developer working with web application layers, presentation layers, and databases. Expert in building and optimizing user-focused websites and applications. Judicious and creative when crafting effective websites, apps, and platforms to propel competitive advantage and revenue growth.Technically proficient and analytical problem solver with a calm and focused demeanor.</span>
             </div>
             <div className="font-Header text-justify">
               <span className="text-gray-400 ">
                 Throughout my education and career, from my self-learning days to earning my degrees, I&apos;ve gained
-                experience in various industries. I have had the opportunity to work with companies and startups,
-                including <span className="text-AAsecondary">Vision</span>,{" "}
+                experience in various companies. I have had the opportunity to work with companies and startups
+                {/* including <span className="text-AAsecondary">Vision</span>,{" "}
                 <span className="text-AAsecondary">FeverTokens</span>,{" "}
                 <span className="text-AAsecondary">TrouveTavoi</span>, and many others, including transportation and
                 international companies. At FeverTokens, I led the development of an innovative NFT marketplace, and at
                 Vision, which is the <span className="text-AAsecondary">second-largest market</span> in the world for{" "}
-                <span className="text-AAsecondary">ENS</span>, I led the development of their new NameWrapper release.
+                <span className="text-AAsecondary">ENS</span>, I led the development of their new NameWrapper release. */}
               </span>
             </div>
 
