@@ -5,19 +5,19 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function EnsVision() {
   const tasks = [
     {
-      text: "Developed front-end components in the web3 domain using Next.js, Alchemy, Tailwind CSS, Wagmi, Web3.js, Moralis, and Ethers.js, implementing API routes for backend tasks.",
-      keywords: ["Next.js", "Alchemy", "Wagmi", "Web3.js", "Moralis", "Ethers.js", "API routes"],
+      text: "Developed front-end components in the web3 domain using Vue.js, Bootsrap, Tailwind CSS, and Nuxt.js,implementing API routes for backend tasks in Laravel.",
+      keywords: ["Vue.js","Bootsrap","Tailwind CSS", "Nuxt.js", "API routes", "Laravel"],
     },
     {
       text: "Conducted extensive testing to ensure website functionality and maintain quality, managing a large user base effectively.",
       keywords: ["quality assurance", "testing", "user base management"],
     },
     {
-      text: "Converted Figma designs into client components, enhancing interactivity and aligning design with functionality.",
-      keywords: ["website design", "Figma", "interactivity"],
+      text: "Acquired proficiency in working with Shopify RESTful APIs, incorporating third-party integrations, theme customisation, custom plugin development, utilizing NPM packages",
+      keywords: ["Shopify RESTful APIs"],
     },
     {
-      text: "Collaborated closely with the team in regular meetings, interacted with smart contracts, and gained expertise in Ethereum Name Service (ENS).",
+      text: "Collaborated closely with the team in regular meetings, interacted with smart contracts, and gained expertise in Developing.",
       keywords: ["smart contracts", "ENS", "team collaboration"],
     },
 ];
@@ -29,17 +29,17 @@ export default function EnsVision() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-          Senior Full Stack Engineer <span className="text-AAsecondary">@ web3</span>
+          FullStack Developer <span className="text-AAsecondary">@ web3</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Dec 2022 - Sept 2023</span>
+          <span className="font-mono text-xs text-gray-500">Nov 2023 - Nov 2024</span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             style={{ fontSize: "0.6rem" }}
             // set on click to open the website
-            onClick={() => window.open("https://www.vision.io/", "_blank")}
+            onClick={() => window.open("https://addigitech.com/", "_blank")}
           >
-            www.vision.io
+            www.addigitech.com
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">

@@ -5,15 +5,15 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function TrouveTavoie() {
   const tasks = [
     {
-      text: "Led front-end and back-end development to implement a new user workflow system for an NFT marketplace, enhancing the purchasing experience and contributing to a successful marketplace launch.",
-      keywords: ["NFT Marketplace", "user workflow", "purchasing experience"],
+      text: "Developed a new user workflow system for User Management, enhancing the purchasing experience by implementing front-end and back-end functionality using Laravel and Vue.js.",
+      keywords: ["User Management", "user workflow", "Laravel", "Vue.js"],
     },
     {
-      text: "Worked extensively with JavaScript, TypeScript, Next.js, React, AWS, and Vercel to optimize system performance, achieving a 30% improvement in transaction speed and increased user engagement.",
-      keywords: ["JavaScript", "TypeScript", "Next.js", "React", "AWS", "Vercel", "system performance"],
+      text: "Worked extensively with JavaScript, TypeScript, and Next.js to optimize system performance, achieving a 30% improvement in transaction speed and increasing user engagement. Utilized Vue.js, AWS, and Vercel to enhance deployment efficiency and scalability.",
+      keywords: ["JavaScript", "TypeScript", "Next.js", "Vue.js", "AWS", "Vercel", "system performance"],
     },
     {
-      text: "Collaborated closely with developers, providing technical expertise and insights to enhance the overall system architecture.",
+      text: "Collaborated with developers to provide technical expertise and strategic insights, significantly enhancing the overall system architecture and team efficiency.",
       keywords: ["team collaboration", "technical expertise", "system architecture"],
     },
 ];
@@ -25,15 +25,15 @@ export default function TrouveTavoie() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-          Lead Full Stack Software Engineer <span className="text-AAsecondary">@ Blockchain</span>
+          Web Developer <span className="text-AAsecondary">@ Laravel</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Jan - Sept 2022</span>
+          <span className="font-mono text-xs text-gray-500">Dec 2021 - Sep 2023 </span>
           <span className="font-mono text-xs text-AAsecondary hover:cursor-pointer" style={{ fontSize: "0.6rem" }}
            // set on click to open the website
-           onClick={() => window.open("https://www.trouvetavoie.io/", "_blank")}
+           onClick={() => window.open("https://globaliasoft.com/", "_blank")}
           >
-            www.trouvetavoie.io
+            www.globaliasoft.com
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">

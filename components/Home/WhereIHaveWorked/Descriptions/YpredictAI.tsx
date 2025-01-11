@@ -5,40 +5,40 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function YpredictAI() {
   const tasks = [
     {
-      text: "Led the development of an ERC20 token platform using Next.js and AWS Lambda for serverless computing, managing the full project lifecycle and achieving timely delivery.",
-      keywords: ["Next.js", "ERC20", "AWS Lambda", "project lifecycle", "timely delivery"],
+      text: "Worked on Diffrent types functionality as per project and client requiremnt with servers.",
+      keywords: ["servers","client"],
     },
     {
-      text: "Developed and optimized the frontend for decentralized peer-to-peer transactions, resolving smart contract issues to enhance blockchain integration and security.",
-      keywords: ["peer-to-peer", "frontend", "smart contracts", "blockchain integration", "security"],
+      text: "Enhanced server integration to support new features.",
+      keywords: ["server integration"],
     },
+    // {
+    //   text: "Integrated Solidity-based smart contracts and MongoDB for effective data management, ensuring seamless interaction with blockchain protocols.",
+    //   keywords: ["Solidity", "smart contracts", "MongoDB", "blockchain protocols", "data management"],
+    // },
     {
-      text: "Integrated Solidity-based smart contracts and MongoDB for effective data management, ensuring seamless interaction with blockchain protocols.",
-      keywords: ["Solidity", "smart contracts", "MongoDB", "blockchain protocols", "data management"],
-    },
-    {
-      text: "Focused on SEO and tracking metrics with Google Analytics, resulting in a successful private sale that sold out within 24 hours. Made the project publicly accessible on GitHub.",
-      keywords: ["SEO", "Google Analytics", "private sale", "GitHub", "public access"],
+      text: "Fixed minor issues with server-side logic.",
+      keywords: ["server-side"],
     },
   ];
 
   return (
     <>
       <div className="flex flex-col space-y-5 max-w-xl px-4 md:px-0">
-        <div className="flex flex-col spacey-y-2">
+      <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-          Lead Full Stack Engineer <span className="text-AAsecondary">@ YPredict</span>
+          FullStack Developer <span className="text-AAsecondary">@ web3</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Oct - Dec 2022</span>
+          <span className="font-mono text-xs text-gray-500">Oct - Nov 2023</span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
+            // set text size on style attribute
             style={{ fontSize: "0.6rem" }}
-            // set on click to open the website
-            onClick={() => window.open("https://ypredict.ai/", "_blank")}
+            onClick={() => window.open("https://logixbuilt.com/", "_blank")}
           >
-            www.ypredict.ai
+            www.logixbuilt.com
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
