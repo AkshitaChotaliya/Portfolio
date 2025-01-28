@@ -44,7 +44,7 @@ export default function Fotter(props:{link:string,className:string}) {
     text-sm  space-y-2  "
           >
             <span className="group-hover:text-AAsecondary sm:text-sm text-xs">
-              Designed & Built by Akshita Chauhan
+              Designed & Built by Akshita Chotaliya
             </span>
 
             <span className="text-xs flex flex-row items-center space-x-2 group-hover:text-AAsecondary">

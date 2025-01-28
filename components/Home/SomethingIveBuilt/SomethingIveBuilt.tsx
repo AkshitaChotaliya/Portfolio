@@ -14,8 +14,7 @@ export default function SomethingIveBuilt() {
       className=" flex flex-col xl:space-y-28 space-y-12 bg-AAprimary w-full  
      2xl:px-72 lg:px-24 md:px-16 sm:px-16 py-32 px-4"
     >
-      {/* // ? Title   */}
-      <div data-aos="fade-up" className=" flex flex-row  items-center md:px-0">
+      {/* <div data-aos="fade-up" className=" flex flex-row  items-center md:px-0">
         <ArrowIcon className={"flex-none h-5 md:h-6 w-5 md:w-5 translate-y-[2px] text-AAsecondary"} />
         <div className="flex-none flex-row space-x-2 items-center pr-2">
           <span className="text-AAsecondary font-sans text-sm  sm:text-xl"> 03.</span>
@@ -25,13 +24,10 @@ export default function SomethingIveBuilt() {
           </span>
         </div>
         <div className="bg-gray-400 h-[0.2px] w-full xl:w-1/3 md:w-1/2"></div>
-      </div>
+      </div> */}
 
-      <div className="flex flex-col   xl:space-y-36 space-y-8 md:space-y-28">
-        {/* // TODO : to here  */}
-        {/* // ?  Project  1 Ens Vision */}
+      {/* <div className="flex flex-col   xl:space-y-36 space-y-8 md:space-y-28">
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
-          {/* Left image */}
           <div
             className="hidden bg-AAprimary z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center "
@@ -47,9 +43,7 @@ export default function SomethingIveBuilt() {
             </div>
           </div>
 
-          {/* right Content */}
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
-            {/* background for text in mobile responsive */}
             <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
@@ -91,7 +85,6 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">ERC72</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                {/* <GithubIcon link="https://github.com/hktitof/Ypredict" /> */}
                 <a href="https://www.vision.io" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
@@ -100,26 +93,17 @@ export default function SomethingIveBuilt() {
           </div>
         </div>
 
-        {/* // ?  Project 2 - YpredictAI */}
 
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96 ">
-          {/* Left image */}
           <div
             className="hidden bg-AAprimary z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              {/* <Link href={"/typing"}>
-                <div
-                  // onClick={}
-                  className="absolute w-full h-full rounded bg-AAsecondary 
-           transition-opacity opacity-20 hover:opacity-0 hover:cursor-pointer duration-300"
-                ></div>
-              </Link> */}
+              {}
 
               <a href="https://ubiquitous-bublanina-da84ec.netlify.app/" target={"_blank"} rel="noreferrer">
                 <div
-                  // onClick={}
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-30 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
@@ -129,9 +113,7 @@ export default function SomethingIveBuilt() {
             </div>
           </div>
 
-          {/* right Content */}
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
-            {/* background for text in mobile responsive */}
             <div className="absolute w-full h-full bg-opacity-70 z-0">
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
@@ -184,9 +166,7 @@ export default function SomethingIveBuilt() {
           </div>
         </div>
 
-        {/* // ?  Project 2 - FeverTokens */}
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
-          {/* Left image */}
           <div
             className="hidden bg-AAprimary z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center "
@@ -202,9 +182,7 @@ export default function SomethingIveBuilt() {
             </div>
           </div>
 
-          {/* right Content */}
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
-            {/* background for text in mobile responsive */}
             <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
@@ -245,7 +223,6 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Blockchain</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                {/* <GithubIcon link="https://github.com/hktitof/Ypredict" /> */}
                 <a href="https://www.fevertokens.io/" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
@@ -253,9 +230,7 @@ export default function SomethingIveBuilt() {
             </div>
           </div>
         </div>
-        {/* // ?  Project  3*/}
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96 ">
-          {/* Left image */}
           <div
             className="hidden bg-AAprimary z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center"
@@ -263,7 +238,6 @@ export default function SomethingIveBuilt() {
             <div className="relative rounded w-full h-full col-span-7 ">
               <Link href={"/typing"}>
                 <div
-                  // onClick={}
                   className="absolute w-full h-full rounded bg-AAsecondary 
            transition-opacity opacity-10 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
@@ -273,9 +247,7 @@ export default function SomethingIveBuilt() {
             </div>
           </div>
 
-          {/* right Content */}
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
-            {/* background for text in mobile responsive */}
             <div className="absolute w-full h-full bg-opacity-70 z-0">
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
@@ -321,9 +293,7 @@ export default function SomethingIveBuilt() {
           </div>
         </div>
 
-        {/* // ?  Project 4 */}
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
-          {/* Left image */}
           <div
             className="hidden bg-AAprimary z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center "
@@ -339,9 +309,7 @@ export default function SomethingIveBuilt() {
             </div>
           </div>
 
-          {/* right Content */}
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
-            {/* background for text in mobile responsive */}
             <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
@@ -390,9 +358,7 @@ export default function SomethingIveBuilt() {
           </div>
         </div>
 
-        {/* // ? Project 5 */}
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96">
-          {/* Left image */}
           <div
             className="hidden bg-AAprimary z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center"
@@ -400,7 +366,6 @@ export default function SomethingIveBuilt() {
             <div className="relative rounded w-full h-full col-span-7 ">
               <a href="https://www.haircut.ma" target={"_blank"} rel="noreferrer">
                 <div
-                  // onClick={}
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
@@ -414,9 +379,7 @@ export default function SomethingIveBuilt() {
             </div>
           </div>
 
-          {/* right Content */}
-          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
-            {/* background for text in mobile responsive */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">e
             <div className="absolute w-full h-full bg-opacity-70 z-0">
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
@@ -467,9 +430,7 @@ export default function SomethingIveBuilt() {
           </div>
         </div>
 
-        {/* // ?  Project 6 */}
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
-          {/* Left image */}
           <div
             className="hidden bg-AAprimary z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center "
@@ -486,9 +447,7 @@ export default function SomethingIveBuilt() {
             </div>
           </div>
 
-          {/* right Content */}
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
-            {/* background for text in mobile responsive */}
             <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAprimary opacity-50 z-10"></div>
@@ -532,7 +491,7 @@ export default function SomethingIveBuilt() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
