@@ -146,7 +146,7 @@ export const handleOnChangeInput = (
   setMyText([...myText]); // update the state
   // Checking if the user finished typing by checking if the last char gray color is changed!
   if (!(myText[1][myText[1].length - 1].charColor === "text-gray-500")) {
-    console.log("Player Finished typing!!");
+    // console.log("Player Finished typing!!");
     updateStatistics(); // update statistics
     /**
      * @note :  next line will prevent from showing the previous text when user restarts

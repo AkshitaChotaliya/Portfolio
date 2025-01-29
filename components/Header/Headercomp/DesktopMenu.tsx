@@ -48,7 +48,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
           <span className="text-white  hover:cursor-pointer hover:text-AAsecondary duration-300">Experience</span>
         </ReactScrollLink>
       </motion.div>
-      <motion.div
+      {/* <motion.div
         initial={{
           y: -40,
           opacity: 0,
@@ -69,7 +69,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
 
         </ReactScrollLink>
         
-      </motion.div>
+      </motion.div> */}
       <motion.span
         initial={{
           y: -40,
@@ -87,10 +87,10 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
         className="text-AAsecondary"
       >
          <ReactScrollLink to="GetInTouchSection" spy={true} smooth={true} offset={-100} duration={200}>
-         &gt; 04. <span className="text-white  hover:cursor-pointer hover:text-AAsecondary duration-300">Contact</span>
+         &gt; 03. <span className="text-white  hover:cursor-pointer hover:text-AAsecondary duration-300">Contact</span>
         </ReactScrollLink>
       </motion.span>
-      <a href={"/resume.pdf"} target={"_blank"} rel="noreferrer">
+      {/* <a href={"/resume.pdf"} target={"_blank"} rel="noreferrer">
       <motion.button
         initial={{
           y: -40,
@@ -110,7 +110,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
       >
         Resume
       </motion.button>
-      </a>
+      </a> */}
       
     </div>
   );

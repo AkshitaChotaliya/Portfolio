@@ -32,13 +32,13 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
         <div className="flex flex-col space-y-8 justify-center items-center">
           <div className="flex flex-col justify-center items-center space-y-5">
             {/* Github Icon */}
-            <IconClickableWithAnimation Icon={GithubIcon} href={"https://github.com/chauhan-aksh"} />
+            <IconClickableWithAnimation Icon={GithubIcon} href={"https://github.com/AkshitaChotaliya"} />
             {/* Linkedin icon */}
-            <IconClickableWithAnimation Icon={LinkedinIcon} href={"ttps://www.linkedin.com/in/akshitac3/"} />
+            <IconClickableWithAnimation Icon={LinkedinIcon} href={"https://www.linkedin.com/in/akshitac3/"} />
             {/* Instagram Icon */}
             {/* <IconClickableWithAnimation Icon={InstagramIcon} href={"https://www.instagram.com/xredme/"} /> */}
             {/* Youtube Icon */}
-            <IconClickableWithAnimation Icon={YoutubeIcon} href={"https://www.youtube.com/@abdellatif_anaflous"} />
+            {/* <IconClickableWithAnimation Icon={YoutubeIcon} href={"https://www.youtube.com/@abdellatif_anaflous"} /> */}
           </div>
           <div className="h-28 w-0.5 bg-gray-400"></div>
         </div>
@@ -62,11 +62,12 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
             }}
             className=""
           >
-            <a href="mailto:abdellatif@anaflous.com" target={"_blank"} rel="noreferrer">
-              <span className=" font-Header tracking-wider text-gray-400 hover:text-AAsecondary hover:cursor-pointer">
-                abdellatif<span className="text-AAsecondary">@</span>anaflous<span className="text-AAsecondary">.</span>com
-              </span>
-            </a>
+            <span className=" font-Header tracking-wider text-gray-400 hover:text-AAsecondary hover:cursor-pointer">
+                Akshita Chotaliya
+            </span>
+            {/* <a href="mailto:akshitachotaliya3@gmail.com" target={"_blank"} rel="noreferrer">
+              
+            </a> */}
           </motion.div>
 
           <div className="h-24 w-0.5 bg-gray-400"></div>

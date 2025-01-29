@@ -7,33 +7,36 @@ export default function MyName(props: { finishedLoading: boolean }) {
   return (
     <div
       className="h-full flex flex-col justify-center
-      px-8 2xl:px-72 xl:px-56 lg:px-32  md:px-28 sm:px-8 py-32 sm:py-52  "
+      px-8 2xl:px-72 xl:px-32 lg:px-32  md:px-28 sm:px-8 py-32 sm:py-52  "
     >
-      <motion.span
+      <motion.h3
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
+        style={{fontSize: '40px', fontFamily: "Playwrite IN", lineHeight: '40px'}}
         transition={{
           opacity: { delay: props.finishedLoading ? 0 : 10.4, duration: props.finishedLoading ? 0 : 0.2 },
           y: { delay: props.finishedLoading ? 0 : 10.4, duration: props.finishedLoading ? 0 : 0.2 },
         }}
         className="text-AAsecondary font-mono"
       >
-        Hi, my name is
-      </motion.span>
+        Namaste!
+      </motion.h3>
       <motion.h1
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
+        style={{fontSize: '76px', lineHeight: '80px'}}
         transition={{
           opacity: { delay: props.finishedLoading ? 0 : 10.5, duration: props.finishedLoading ? 0 : 0.2 },
           y: { delay: props.finishedLoading ? 0 : 10.5, duration: props.finishedLoading ? 0 : 0.2 },
         }}
         className="text-gray-300 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
       >
-        Akshita Chotaliya.
+        I'm Akshita Chotaliya
       </motion.h1>
       <motion.h2
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
+        style={{fontSize: '40px'}}
         transition={{
           opacity: { delay: props.finishedLoading ? 0 : 10.6, duration: props.finishedLoading ? 0 : 0.2 },
           y: { delay: props.finishedLoading ? 0 : 10.6, duration: props.finishedLoading ? 0 : 0.2 },
@@ -66,7 +69,8 @@ export default function MyName(props: { finishedLoading: boolean }) {
           opacity: { delay: props.finishedLoading ? 0 : 10.7, duration: props.finishedLoading ? 0 : 0.2 },
           y: { delay: props.finishedLoading ? 0 : 10.7, duration: props.finishedLoading ? 0 : 0.2 },
         }}
-        className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider "
+        style={{ fontSize: '17px', lineHeight: '26px'}}
+        className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-8 tracking-wider "
       >
         I&apos;m a <span className="text-AAsecondary">Full Stack Software Engineer</span> with strong{" "}
         <span className="text-AAsecondary">problem-solving skills</span>, specializing in creating exceptional digital
@@ -90,10 +94,10 @@ export default function MyName(props: { finishedLoading: boolean }) {
           opacity: { delay: props.finishedLoading ? 0 : 10.8, duration: props.finishedLoading ? 0 : 0.2 },
           y: { delay: props.finishedLoading ? 0 : 10.8, duration: props.finishedLoading ? 0 : 0.2 },
         }}
-        className="mt-12"
+        className="mt-8"
       >
         <a href="mailto:akshitachotaliya3@gmail.com" rel="noreferrer">
-            <button className="bg-AAprimary text-AAsecondary border rounded px-4 sm:px-8 py-3 sm:py-4 border-AAsecondary">
+            <button className="bg-AAprimary text-AAsecondary border rounded px-4 sm:px-8 py-3 sm:py-3 border-AAsecondary">
               Say Hello!
             </button>
         </a>

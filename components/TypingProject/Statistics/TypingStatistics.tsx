@@ -34,7 +34,7 @@ export default function TypingStatistics(props: Props) {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
           onClick={() => {
-            console.log("Restarted By a click!!!!");
+            // console.log("Restarted By a click!!!!");
             props.restart();
           }}
           className="group flex flex-row space-x-3 items-center hover:cursor-pointer"

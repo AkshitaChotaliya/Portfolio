@@ -34,7 +34,7 @@ export default function Home() {
   //  this restart will be assigned again in each render only when roundCounter increase
   const restart = useCallback(() => {
     document.removeEventListener("keydown", context.sharedState.typing.keyboardEvent);
-    console.log("event Listener is Removed!!!!!!!!!!");
+    // console.log("event Listener is Removed!!!!!!!!!!");
     seconds.current = timeToType; // update the seconds to default value again
     getData(setMyText, setActiveWordWithIndex, setRoundCounter, roundCounter);
     setActiveWordWithIndex(null);
@@ -44,7 +44,7 @@ export default function Home() {
     }
   }, [context.sharedState.typing.keyboardEvent, roundCounter]);
   // print myText
-  console.log("myText : ", myText);
+  // console.log("myText : ", myText);
   // update Statistics state
   const updateStatistics = useCallback(() => {
     statistics.push({
@@ -59,7 +59,7 @@ export default function Home() {
   useEffect(() => {
     if (inputLostFocus) {
       context.sharedState.typing.eventInputLostFocus = () => {
-        console.log("window is resized..Changing inputLostFocus height");
+        // console.log("window is resized..Changing inputLostFocus height");
         if (absoluteTextINputRef.current?.style && inputLostFocus) {
           absoluteTextINputRef.current.style.height = textInputRef.current.clientHeight + "px";
         }
@@ -74,17 +74,17 @@ export default function Home() {
   // this useEffect will be called when the component is rendered for the first time and will keep focus on input
   useEffect(() => {
     if (myText[0].length == 0) {
-      console.log("#useEffect Getting Data.......");
+      // console.log("#useEffect Getting Data.......");
       getData(setMyText, setActiveWordWithIndex, setRoundCounter, roundCounter); // setMyText is the callback function
     }
     inputRef.current?.focus();
-    console.log("useEffect executed...");
+    // console.log("useEffect executed...");
   }, [myText, activeWordWithIndex, isFinished, roundCounter]);
   // this useEffect will be called each time restart is changed, it will initialize the keyboard event
   useEffect(() => {
     inputRef.current?.focus();
     context.sharedState.typing.keyboardEvent = (e: KeyboardEvent) => {
-      console.log("KeyDown Detected : ", e.code);
+      // console.log("KeyDown Detected : ", e.code);
       if ((e.metaKey || e.ctrlKey) && e.code === "Slash") {
         restart();
         console.log("Restarted By Shortcut!!!!");
@@ -231,7 +231,7 @@ export default function Home() {
               <div className="w-full flex justify-center">
                 <input
                   onBlur={() => {
-                    console.log("input lost focus!!");
+                    // console.log("input lost focus!!");
                     setInputLostFocus(true);
                   }}
                   ref={inputRef}
@@ -271,7 +271,7 @@ export default function Home() {
               </div>
             </div>
           </main>
-          <Footer className="absolute bottom-0" link="https://github.com/chauhan-aksh/Typing" />
+          <Footer className="absolute bottom-0" link="https://github.com/AkshitaChotaliya/Typing" />
         </>
       )}
 
@@ -285,7 +285,7 @@ export default function Home() {
             statistics={statistics}
             timeToType={timeToType}
           />
-          <Footer className="pt-16" link="https://github.com/chauhan-akshss/Typing" />
+          <Footer className="pt-16" link="https://github.com/AkshitaChotaliya/Typing" />
         </>
       )}
     </div>

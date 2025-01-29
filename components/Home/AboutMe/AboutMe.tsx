@@ -29,7 +29,7 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header text-justify">
               <span className="text-gray-400 ">
-                Hello! My name is Akshita, and I&apos;m a passionate{" "}
+               I&apos;m a passionate{" "}
                 <span className="text-AAsecondary">Full Stack Software Engineer</span> with strong problem-solving skills. My
                 journey in Electronics and communication engineering started at 7 years old,
                 which started my interest in programming. Over the years, I continued to teach myself coding, which led

@@ -8,7 +8,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       const quote = data.content.endsWith(";") ? data.content.slice(0, -1) : data.content;
 
       // print data.content
-      console.log("data.content : ", data.content);
+      // console.log("data.content : ", data.content);
       res.status(200).json({ quote: data.content, author: data.authorSlug });
     })
     .catch(err => {

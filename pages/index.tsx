@@ -105,7 +105,7 @@ export default function Home() {
     Aos.init({ duration: 2000, once: true });
   }, []);
 
-  console.log("website is rendering...");
+  // console.log("website is rendering...");
   const meta = {
     title: "Akshita Chotaliya - Software Engineer",
     description: `I've been working on Software development for 5 years straight. Get in touch with me to know more.`,
@@ -132,6 +132,10 @@ export default function Home() {
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
+        {/* Google Fonts  */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap" rel="stylesheet"></link>
       </Head>
 
       {!isBlackListed ? (
@@ -143,10 +147,10 @@ export default function Home() {
           <SocialMediaArround finishedLoading={context.sharedState.finishedLoading} />
           {context.sharedState.finishedLoading ? <AboutMe ref={aboutRef} /> : <></>}
           {context.sharedState.finishedLoading ? <WhereIHaveWorked /> : <></>}
-          {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
+          {/* {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>} */}
           {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
           {context.sharedState.finishedLoading ? (
-            <Footer githubUrl={"https://github.com/chauhan-aksh/my-website"} hideSocialsInDesktop={true} />
+            <Footer githubUrl={"https://github.com/AkshitaChotaliya"} hideSocialsInDesktop={true} />
           ) : (
             <></>
           )}

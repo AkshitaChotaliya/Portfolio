@@ -29,14 +29,14 @@ export default function Fotter(props:{link:string,className:string}) {
             href={"https://www.linkedin.com/in/akshitac3/"}
             Icon={LinkedinIcon}
           />
-          <ClickableIcon
-            href={"https://www.instagram.com/titof_abdo/"}
-            Icon={InstagramIcon}
-          />
-          <ClickableIcon
-            href={"https://www.youtube.com/c/NTTFT"}
-            Icon={YoutubeIcon}
-          />
+            {/* <ClickableIcon
+              href={"https://www.instagram.com/titof_abdo/"}
+              Icon={InstagramIcon}
+            />
+            <ClickableIcon
+              href={"https://www.youtube.com/c/NTTFT"}
+              Icon={YoutubeIcon}
+            /> */}
         </div>
         <a href={props.link} className="" target={"_blank"} rel="noreferrer">
           <div

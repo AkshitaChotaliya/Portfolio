@@ -36,7 +36,7 @@ const Header = (props: { finishedLoading: boolean,sectionsRef }) => {
             scrollSizeY.current = window.scrollY;
           }
         }
-        console.log("Scrolling checking for NavBar ", scrollSizeY.current);
+        // console.log("Scrolling checking for NavBar ", scrollSizeY.current);
       }
     }
   }, [context.sharedState.portfolio.NavBar, context.sharedState.portfolio.NavBar.IntervalEvent]);
@@ -61,7 +61,7 @@ const Header = (props: { finishedLoading: boolean,sectionsRef }) => {
     }, 10400);
   }, []);
 
-  console.log("rotate from header : ", rotate);
+  // console.log("rotate from header : ", rotate);
   //veify document for serverSide rendering
   if (typeof document !== "undefined") {
     rotate ? (document.body.style.overflow = "hidden") : (document.body.style.overflow = "auto");

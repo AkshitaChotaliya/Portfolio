@@ -47,7 +47,7 @@ export default function StatisticsTab({
   finishedTime: string;
   statistics: Statistics;
 }) {
-  console.log("score list : ", statistics);
+  // console.log("score list : ", statistics);
   return (
     <>
       <div className="w-full flex flex-col space-y-4">

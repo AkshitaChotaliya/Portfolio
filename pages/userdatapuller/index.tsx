@@ -302,7 +302,7 @@ export default function Page() {
         {/* // ? About */}
         <About />
       </div>
-      <Footer githubUrl="https://github.com/chauhan-aksh/DataPuller" hideSocialsInDesktop={false} />
+      <Footer githubUrl="https://github.com/AkshitaChotaliya/DataPuller" hideSocialsInDesktop={false} />
     </>
   );
 }
