@@ -47,3 +47,9 @@ a {
   max-width: 28px;
   height: auto;
 }
+.techIcons > div{
+  flex-wrap: wrap;
+  row-gap: 18px;
+  align-items: baseline;
+  column-gap: 42px;
+}

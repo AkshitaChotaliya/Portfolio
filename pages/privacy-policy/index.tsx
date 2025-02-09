@@ -5,7 +5,7 @@ const PrivacyPolicy = () => {
     <div className="bg-gray-50 min-h-screen py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto bg-white shadow-xl rounded-lg overflow-hidden">
         <div className="px-4 py-5 sm:p-6">
-          <h1 className="text-3xl font-bold text-gray-900 mb-6">Privacy Policy for anaflous.com</h1>
+          <h1 className="text-3xl font-bold text-gray-900 mb-6">Privacy Policy for akshitachotaliya.com</h1>
           <p className="text-sm text-gray-600 mb-8">Effective Date: 5 Oct 2024</p>
 
           <section className="mb-8">
@@ -26,7 +26,7 @@ const PrivacyPolicy = () => {
           <section className="mb-8">
             <h2 className="text-xl font-semibold text-gray-800 mb-4">2. Portfolio and Projects</h2>
             <p className="text-gray-700 mb-4">
-              The website <a href="https://anaflous.com" className="text-blue-600 hover:text-blue-800 transition duration-300">anaflous.com</a> serves as my personal portfolio where I share my resume and software projects.
+              The website <a href="https://akshitachotaliya.com" className="text-blue-600 hover:text-blue-800 transition duration-300">akshitachotaliya.com</a> serves as my personal portfolio where I share my resume and software projects.
             </p>
             <p className="text-gray-700">
               One of the projects demonstrates, for educational purposes, what websites can collect about users. This project does not collect data unless the user explicitly interacts with it to learn more about data collection practices.
@@ -49,7 +49,7 @@ const PrivacyPolicy = () => {
               If you have any questions regarding this privacy policy, feel free to contact me at:
             </p>
             <p className="text-gray-700 mt-2">
-              Email: <a href="mailto:your.email@example.com" className="text-blue-600 hover:text-blue-800 transition duration-300">abdellatif@anaflous.com</a>
+              Email: <a href="mailto:akshitachotaliya3@gmail.com" className="text-blue-600 hover:text-blue-800 transition duration-300">akshitachotaliya3@gmail.com</a>
             </p>
           </section>
         </div>
