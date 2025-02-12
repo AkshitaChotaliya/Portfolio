@@ -31,7 +31,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-300 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
       >
-        I`m Akshita Chotaliya
+        I&apos;m Akshita Chotaliya
       </motion.h1>
       <motion.h2
         initial={{ y: 10, opacity: 0 }}
