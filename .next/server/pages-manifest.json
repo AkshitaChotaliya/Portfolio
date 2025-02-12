@@ -5,10 +5,10 @@
   "/api/userInfoByIP/[userInfo]": "pages/api/userInfoByIP/[userInfo].js",
   "/api/userInfoByLatLon/[lat]/[lon]": "pages/api/userInfoByLatLon/[lat]/[lon].js",
   "/": "pages/index.html",
-  "/test": "pages/test.html",
-  "/typing": "pages/typing.html",
-  "/userdatapuller": "pages/userdatapuller.html",
   "/privacy-policy": "pages/privacy-policy.html",
+  "/typing": "pages/typing.html",
+  "/test": "pages/test.html",
+  "/userdatapuller": "pages/userdatapuller.html",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
 }
