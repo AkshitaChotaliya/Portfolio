@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={}
+self.__REACT_LOADABLE_MANIFEST={"userdatapuller\\index.tsx -> ../../components/DataPullerProject/Map":{id:9969,files:["static/chunks/0b7b90cd.f865ac79c3cdd107.js","static/css/95c07f26207f0a22.css","static/chunks/969.9455b5fb6fecd737.js"]}}

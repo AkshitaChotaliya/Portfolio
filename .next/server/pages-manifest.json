@@ -1,7 +1,14 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/api/typing/[minLength]": "pages/api/typing/[minLength].js",
+  "/api/userInfoByIP/[userInfo]": "pages/api/userInfoByIP/[userInfo].js",
+  "/api/userInfoByLatLon/[lat]/[lon]": "pages/api/userInfoByLatLon/[lat]/[lon].js",
+  "/": "pages/index.html",
+  "/test": "pages/test.html",
+  "/typing": "pages/typing.html",
+  "/userdatapuller": "pages/userdatapuller.html",
+  "/privacy-policy": "pages/privacy-policy.html",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/api/userInfoByIP/[userInfo]": "pages/api/userInfoByIP/[userInfo].js"
+  "/404": "pages/404.html"
 }
