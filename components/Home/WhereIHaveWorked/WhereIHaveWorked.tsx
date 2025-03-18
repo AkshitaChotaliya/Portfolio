@@ -84,9 +84,10 @@ const CompaniesBar = props => {
           props.setDescriptionJob(props.DescriptionJob);
           setCompanyNameBackgroundColorGreen(props.CompanyNameBackgroundColorGreen);
         }}
-        className={`flex-none sm:text-sm text-xs text-center md:text-left  hover:text-AAsecondary
-             hover:bg-ResumeButtonHover rounded  font-mono  
-             py-3 md:pl-6 md:px-4 md:w-44 w-32 duration-500
+        className={`flex-none text-xs sm:text-sm text-center md:text-left font-mono 
+            py-3 px-4 sm:px-4 md:pl-6 md:px-4 sm:w-auto lg:w-50 
+            whitespace-nowrap md:whitespace-normal 
+            rounded duration-500 hover:text-AAsecondary hover:bg-ResumeButtonHover
              ${
                companyNameBackgroundColorGreen[props.ButtonOrderOfcompanyNameBackgroundColorGreen]
                  ? "bg-ResumeButtonHover text-AAsecondary"
@@ -101,25 +102,13 @@ const CompaniesBar = props => {
   return (
     <div
       id="WhereIhaveWorkedSection"
-      className=" flex flex-col md:flex-row  w-screen lg:w-auto 
+      className=" flex flex-col md:flex-row w-full lg:w-auto 
       overflow-auto scrollbar-hide md:overflow-hidden pb-4 md:pb-0 justify-start
        sm:justify-center items-start sm:items-center"
     >
-      {/* // ? left bar Holder */}
-      <div
-        className=" hidden md:block bg-gray-500 relative h-0.5 w-34 md:h-[352px] translate-y-1 md:w-0.5  
-        rounded md:order-1 order-2  "
-      >
-        {/* // ? animated left bar */}
-        <motion.div
-          animate={{ y: barPosition }}
-          // ref={barRef}
-          className={`absolute w-10 h-0.5 md:w-0.5 md:h-12 rounded bg-AAsecondary `}
-        ></motion.div>
-      </div>
       {/* // ? Companies name as buttons */}
-      <div className="flex flex-col md:order-2 order-1 space-y-1 pl-8 md:pl-0 ">
-        <div className="flex flex-row md:flex-col">
+      <div className="flex flex-col md:order-2 order-1 space-y-1 pl-8 md:pl-0">
+        <div className="flex flex-row md:flex-col ">
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={0}
             CompanyName="AD Digitech"

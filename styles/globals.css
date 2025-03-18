@@ -53,3 +53,9 @@ a {
   align-items: baseline;
   column-gap: 42px;
 }
+
+/* @media (max-width: 768px) {
+  .mobileHiddenBar{
+    display: none;
+  }
+} */
