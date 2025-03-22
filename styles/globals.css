@@ -43,6 +43,11 @@ a {
   box-sizing: border-box;
 }
 
+/* Section CSS */
+section{
+  max-width: 100%;
+}
+
 .techIcons svg{
   max-width: 28px;
   height: auto;
